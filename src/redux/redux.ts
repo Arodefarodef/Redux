@@ -9,7 +9,7 @@ const redux = createSlice({
   initialState,
   reducers: {
     setIndex: (state, { payload }) => {
-      return (state.index = payload);
+      state.index = payload;
     },
   },
 });
